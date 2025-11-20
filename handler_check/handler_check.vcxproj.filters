@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="handler_check.cpp" />
+    <ClCompile Include="anti_handler.cpp">
+      <Filter>antidebug</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="antidebug">
+      <UniqueIdentifier>{8c02c1ad-32ca-48e2-8506-ca66edef3bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{bdb25247-596a-4c83-9bae-0f5b333cc318}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anti_handler.h">
+      <Filter>antidebug</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
